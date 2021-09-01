@@ -1,0 +1,93 @@
+.bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; font-style: normal; 
+font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;
+margin-bottom: 470px;}
+
+#text2 {margin-right: 10px;}
+.mainimg {margin-right: 10px;  display: inline-block; float: right; }
+.slider {
+  position: relative;
+  width: 487px;
+  height: 650px;
+  overflow: hidden;
+  margin-bottom: 33px;
+}
+
+.slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+
+  opacity: 0;
+  cursor: pointer;
+}
+
+.slider .slide.active { opacity: 1; }
+
+.slider .slide:nth-child(1) {background-color: white;}
+
+.slider .slide:nth-child(2) {background-color: white;}
+.slider .slide:nth-child(3) {background-color: white;}
+
+.slider .slide:nth-child(4) {background-color: white;}
+.slider .slide:nth-child(5) {background-color: white;}
+
+.slider .slide:nth-child(6) {background-color: white;}
+
+.slider .slide:nth-child(7) {background-color: white;}
+
+.slider .slide:nth-child(8) {background-color: white;}
+.slider .slide:nth-child(9) {background-color: white;}
+
+.slider .slide:nth-child(10) {background-color: white;}
+.slider .slide:nth-child(11) {background-color: white;}
+
+.slider .slide:nth-child(12) {background-color: white;}
+
+
+.mainnav {display: flex; font-family: neue-haas-grotesk-display,sans-serif;
+font-weight: 600;
+margin-left: 10px; margin-right: 10px; clear: both;
+font-style: normal; font-size: 24px; justify-content: space-between;}
+
+.maintext1 {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; 
+font-style: normal; line-height: 168px;
+font-variant: normal; font-weight: 400; text-align: center; margin-top: 122px; margin-bottom: 85px;}
+
+.maintext1 p {margin-bottom: 100px;}
+
+#schedule {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; 
+font-style: normal; line-height: 168px;
+font-variant: normal; font-weight: 400; text-align: center; margin-bottom: 20px;}
+ .arrow {text-align: center; margin-bottom: 250px;}
+
+.maintext {text-align: center ;font-family: Arial, sans-serif; font-weight: 300; 
+	font-size: 74px; line-height: 140%; margin-bottom: 50px;}
+
+.schedulebox {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; 
+font-style: normal; line-height: 168px;
+font-variant: normal; font-weight: 400;  display: flex;}
+
+
+.week {width: 17%; margin-left: 52px;}
+.contents {width: 60%; text-align: center;}
+a {color: black; cursor: pointer;}
+
+.flexbox {display: flex; justify-content: space-between; font-family: "Arial Narrow", Arial, sans-serif;
+ font-size: 140px; 
+font-style: normal; line-height: 168px;
+font-variant: normal; font-weight: 400; align-items: flex-end; margin-bottom: 120px;}
+
+.work p {font-family: "Arial Narrow", Arial, sans-serif; font-size:71px; width: 90%;
+ margin-left: 5%; line-height: 85px; margin-bottom: 200px; margin-top: 120px; text-align: center;}
+
+.flexitem45 {width: 45%;}
+
+.maintext2 {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; 
+font-style: normal; line-height: 168px;
+font-variant: normal; font-weight: 400; text-align: center; margin-top: 120px; margin-bottom: 120px;}
+
+.introimg {text-align: center;}
