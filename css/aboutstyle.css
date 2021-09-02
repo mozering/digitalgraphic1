@@ -1,6 +1,7 @@
 .bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; font-style: normal; 
 font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;}
 a {color: black;}
+a:hover {color: lightgray;}
 .maintext1 {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; 
 font-style: normal; line-height: 168px;
 font-variant: normal; font-weight: 400; text-align: center; margin-top: 122px; margin-bottom: 85px;}
@@ -17,8 +18,7 @@ font-variant: normal; font-weight: 400; text-align: center;
 margin-top: 134px; margin-bottom: 120px;}
 
 .featherimg {font-family: "Arial Narrow", Arial, sans-serif; font-size: 86px; 
-display: flex; align-items: flex-end; justify-content: center; margin-left: 20%;
-margin-bottom: 120px;}
+margin-bottom: 120px; text-align: center;}
 
 .episode { font-family: "Arial Narrow", Arial, sans-serif; font-size: 86px; 
 line-height: 103px; text-align: left; margin-left: 10px;
