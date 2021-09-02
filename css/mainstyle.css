@@ -76,10 +76,10 @@ font-variant: normal; font-weight: 400;  display: flex;}
 .contents {width: 60%; text-align: center;}
 a {color: black; cursor: pointer;}
 
-.flexbox {display: flex; justify-content: space-between; font-family: "Arial Narrow", Arial, sans-serif;
+.flexbox {display: flex; justify-content: space-around; font-family: "Arial Narrow", Arial, sans-serif;
  font-size: 140px; 
 font-style: normal; line-height: 168px;
-font-variant: normal; font-weight: 400; align-items: flex-end; margin-bottom: 120px;}
+font-variant: normal; font-weight: 400; align-items: flex-end; margin-bottom: 120px; flex-wrap: nowrap;}
 
 .work p {font-family: "Arial Narrow", Arial, sans-serif; font-size:71px; width: 90%;
  margin-left: 5%; line-height: 85px; margin-bottom: 200px; margin-top: 120px; text-align: center;}
