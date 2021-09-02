@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/indexstyle.css">
+	<link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>DG1 test</title>
@@ -31,11 +34,38 @@
 		<div id="text2"><p>Index</p></div>
 		<div id="text3"><a href="main.html"><p>Close</p></a></div>
 </div>
-<div class="flexbox1 "data-aos="fade-up" data-aos-duration="1500">
-	<div class="w6"><img src="img/work/1.png">
-		<p>Let's Figure out Feather! <br>Koo Jemin</p></div>
+<div class="flexbox1"  >
+      <div class="w6 btn">
+        <img src="img/work/1.png" />
+        <p>Let's Figure out Feather! <br />Koo Jemin</p>
+      </div>
+	      <!-- 첫 번째 Modal -->
+		  <div class="modal">
+ 
+			<!-- 첫 번째 Modal의 내용 -->
+			<div class="modal-content">
+        <p>테스트</p>
+			  <img src="img/work/1.png">
+        <img src="img/work/2.png">
 
-	<div class="w6"><img src="img/work/2.png"><p>Pelican Island <br>Kim Dain</p></div>
+			</div>
+		  </div>
+
+      <div class="w6 btn">
+        <img src="img/work/2.png" />
+        <p>Pelican Island <br />Kim Dain</p>
+      </div>
+
+	      <!-- 두 번째 Modal -->
+		  <div class="modal">
+ 
+			<!-- 두 번째 Modal의 내용 -->
+			<div class="modal-content">
+				<p>테스트</p>
+			  <img src="img/work/3-1.png">
+			  <img src="img/work/3-2.jpg">
+			</div>
+		  </div>
 	<div class="w6"><img src="img/work/3-2.jpg"><p>Until the Arrow Hits the Target<br>Kim Dahyeon</p></div>
 </div>
 <div class="flexbox2"data-aos="fade-up" data-aos-duration="1500">
@@ -130,4 +160,11 @@ Feather dictionary</p>
 <div class="maintext"><p>All Content ©2021-1 DG HKNU<br>
 Hankyong National University Dept. of Design<br>
 Meeting ID: 662-904-7365</p></div>
+<script src=js/modal.js></script>
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+    $('.modal-content').slick();
+</script>
+</body>
 </html>
