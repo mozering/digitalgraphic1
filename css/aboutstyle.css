@@ -1,9 +1,6 @@
 .bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; font-style: normal; 
 font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;}
 a {color: black;}
-a:hover {color: lightgray;}
-
-svg:hover {fill: lightgray;}
 
 .maintext1 {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; 
 font-style: normal; line-height: 168px;
