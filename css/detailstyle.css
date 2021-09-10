@@ -1,0 +1,10 @@
+
+.bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 83px; font-style: italic; 
+font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;
+margin-left: 10px; margin-right: 10px;}
+a {color: black; }
+#text2 {font-family: 'Noto Sans KR', sans-serif; font-size: 66px; font-style: normal;}
+.page {font-family: "Arial Narrow", Arial, sans-serif; font-size: 83px; font-style: italic; 
+font-variant: normal; font-weight: 400; margin-bottom: 100px; margin-left: 10px;}
+
+.detailimg {text-align: center;}
