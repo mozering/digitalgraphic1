@@ -283,7 +283,7 @@ font-variant: normal; font-weight: 400; text-align: center; margin-top: 250px; m
 @media (max-width: 480px) {
 .bigtext {
     font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
