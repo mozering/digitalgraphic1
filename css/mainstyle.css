@@ -217,7 +217,7 @@ font-variant: normal; font-weight: 400; text-align: center; margin-top: 120px; m
     font-weight: 400;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 .slider {
     position: relative;
