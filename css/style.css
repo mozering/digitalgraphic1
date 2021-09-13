@@ -64,3 +64,47 @@ line-height: 277px; color: white; margin-top: 3%;}
 flashing .2s ease infinite
 
 flashing .2s ease infinite
+
+
+@media (max-width: 1600px) {
+
+.introtext {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 168px;
+    text-align: center;
+    line-height: 188px;
+    color: white;
+    margin-top: 9%;
+}
+}
+
+@media (max-width: 1024px) {
+    .introtext {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 174px;
+    text-align: center;
+    line-height: 189px;
+    color: white;
+    margin-top: 14%;
+}
+}
+@media (max-width: 768px) {    
+   .introtext {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 138px;
+    text-align: center;
+    line-height: 156px;
+    color: white;
+    margin-top: 12%;
+}
+}
+@media (max-width: 480px) {
+    .introtext {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 90px;
+    text-align: center;
+    line-height: 113px;
+    color: white;
+    margin-top: 25%;
+}
+}
