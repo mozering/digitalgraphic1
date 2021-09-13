@@ -1,7 +1,13 @@
-.bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; font-style: normal; 
-font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;
-margin-bottom: 320px;}
-
+.bigtext {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 140px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 736px;
+}
 #text2 {margin-right: 10px;}
 .mainimg {margin-right: 10px;  display: inline-block; float: right; }
 .slider {
@@ -98,7 +104,7 @@ font-variant: normal; font-weight: 400; text-align: center; margin-top: 120px; m
 
 .wtf {width: 1050px;}
 
-@media (max-width: 1600px) {
+@media (max-width: 1680px) {
 
 .bigtext {
     font-family: "Arial Narrow", Arial, sans-serif;
