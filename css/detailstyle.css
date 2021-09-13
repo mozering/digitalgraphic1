@@ -13,3 +13,45 @@ font-variant: normal; font-weight: 400; margin-bottom: 100px; margin-left: 10px;
 
 .detailimg p {margin-bottom: 150px;}
 
+.wtf {width: 1150px;margin-bottom: 250px;}
+
+
+@media (max-width: 1600px){
+
+	.bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 63px; font-style: italic; 
+font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;
+margin-left: 10px; margin-right: 10px;}
+
+#text2 {font-family: 'Noto Sans KR', sans-serif; font-size: 46px; font-style: normal;}
+.page {font-family: "Arial Narrow", Arial, sans-serif; font-size: 63px; font-style: italic; 
+font-variant: normal; font-weight: 400; margin-bottom: 100px; margin-left: 10px;}
+
+.detailimg {text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 46px; font-style: normal;}
+
+}
+
+@media (max-width: 768px) {
+
+	.bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 41px; font-style: italic; 
+font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;
+margin-left: 10px; margin-right: 10px;}
+
+#text2 {font-family: 'Noto Sans KR', sans-serif; font-size: 34px; font-style: normal;}
+.page {font-family: "Arial Narrow", Arial, sans-serif; font-size: 41px; font-style: italic; 
+font-variant: normal; font-weight: 400; margin-bottom: 100px; margin-left: 10px;}
+
+.detailimg {text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 34px; font-style: normal;}
+.wtf {width: 70%;}
+}
+
+@media (max-width: 480px) {
+	.bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 35px; font-style: italic; 
+font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;
+margin-left: 10px; margin-right: 10px;}
+
+#text2 {font-family: 'Noto Sans KR', sans-serif; font-size: 28px; font-style: normal;}
+.page {font-family: "Arial Narrow", Arial, sans-serif; font-size: 35px; font-style: italic; 
+font-variant: normal; font-weight: 400; margin-bottom: 100px; margin-left: 10px;}
+
+.detailimg {text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 28px; font-style: normal;}
+}

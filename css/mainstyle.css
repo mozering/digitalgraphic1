@@ -94,48 +94,335 @@ font-variant: normal; font-weight: 400; align-items: flex-end; margin-bottom: 12
 font-style: normal; line-height: 168px;
 font-variant: normal; font-weight: 400; text-align: center; margin-top: 120px; margin-bottom: 120px;}
 
-.introimg {text-align: center;}
+.introimg {text-align: center; }
 
+.wtf {width: 1050px;}
 
 @media (max-width: 1600px) {
 
-.introtext {
+.bigtext {
     font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 168px;
-    text-align: center;
-    line-height: 188px;
-    color: white;
-    margin-top: 9%;
-}
+    font-size: 90px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
 }
 
-@media (max-width: 1024px) {
-    .introtext {
-    font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 174px;
-    text-align: center;
-    line-height: 189px;
-    color: white;
-    margin-top: 14%;
+.slider {
+    position: relative;
+    width: 295px;
+    height: 421px;
+    overflow: hidden;
+    margin-bottom: 33px;
 }
-}
-@media (max-width: 768px) {    
-   .introtext {
+.maintext1 {
     font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 138px;
-    text-align: center;
+    font-size: 114px;
+    font-style: normal;
     line-height: 156px;
-    color: white;
-    margin-top: 12%;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 122px;
+    margin-bottom: 85px;
+}
+#schedule {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 114px;
+    font-style: normal;
+    line-height: 156px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.schedulebox {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 114px;
+    font-style: normal;
+    line-height: 150px;
+    font-variant: normal;
+    font-weight: 400;
+    display: flex;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 137px;
+    font-variant: normal;
+    font-weight: 400;
+    align-items: flex-end;
+    margin-bottom: 120px;
+    flex-wrap: nowrap;
+}
+
+.maintext2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 114px;
+    font-style: normal;
+    line-height: 150px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.work p {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 58px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 76px;
+    margin-bottom: 200px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.wtf {
+    width: 996px;
+}
+
+.maintext {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 57px;
+    line-height: 140%;
+    margin-bottom: 50px;
+}
+
+}
+
+
+@media (max-width: 768px) {    
+.bigtext {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.slider {
+    position: relative;
+    width: 223px;
+    height: 342px;
+    overflow: hidden;
+    margin-bottom: 33px;
+}
+.mainnav {
+    display: flex;
+    font-family: neue-haas-grotesk-display,sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+    font-style: normal;
+    font-size: 17px;
+    justify-content: space-between;
+}
+.maintext1 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 89px;
+    font-style: normal;
+    line-height: 133px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 122px;
+    margin-bottom: 85px;
+}
+#schedule {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 89px;
+    font-style: normal;
+    line-height: 160px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.schedulebox {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 89px;
+    font-style: normal;
+    line-height: 123px;
+    font-variant: normal;
+    font-weight: 400;
+    display: flex;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 70px;
+    font-variant: normal;
+    font-weight: 400;
+    align-items: flex-end;
+    margin-bottom: 119px;
+    flex-wrap: nowrap;
+}
+.maintext2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 89px;
+    font-style: normal;
+    line-height: 123px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.wtf {
+    width: 500px;
+}
+.work p {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 34px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 45px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+.maintext {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 140%;
+    margin-bottom: 50px;
 }
 }
 @media (max-width: 480px) {
-    .introtext {
+.bigtext {
     font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 90px;
-    text-align: center;
-    line-height: 113px;
-    color: white;
-    margin-top: 25%;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 401px;
 }
+.slider {
+    position: relative;
+    width: 197px;
+    height: 274px;
+    overflow: hidden;
+    margin-bottom: 33px;
+}
+.mainnav {
+    display: flex;
+    font-family: neue-haas-grotesk-display,sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+    clear: both;
+    font-style: normal;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.maintext1 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    line-height: 80px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 122px;
+    margin-bottom: 68px;
+}
+#schedule {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    line-height: 80px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 41px;
+}
+.schedulebox {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    line-height: 80px;
+    font-variant: normal;
+    font-weight: 400;
+    display: flex;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    line-height: normal;
+    font-variant: normal;
+    font-weight: 400;
+    align-items: flex-end;
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+}
+.maintext1 p {
+ margin-bottom: 0px; 
+}
+.maintext2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    line-height: 80px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.maintext {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 140%;
+    margin-bottom: 50px;
+}
+.work p {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 27px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 85px;
+    margin-bottom: 200px;
+    margin-top: 120px;
+    text-align: center;
+}
+.maintext2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    line-height: 80px;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.wtf {width: 300px;}
+
 }
