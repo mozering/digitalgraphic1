@@ -1,13 +1,7 @@
-.bigtext {
-    font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 140px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 736px;
-}
+.bigtext {font-family: "Arial Narrow", Arial, sans-serif; font-size: 140px; font-style: normal; 
+font-variant: normal; font-weight: 400; display: flex; justify-content: space-between;
+margin-bottom: 320px;}
+
 #text2 {margin-right: 10px;}
 .mainimg {margin-right: 10px;  display: inline-block; float: right; }
 .slider {
@@ -114,7 +108,7 @@ font-variant: normal; font-weight: 400; text-align: center; margin-top: 120px; m
     font-weight: 400;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 .slider {
@@ -217,7 +211,7 @@ font-variant: normal; font-weight: 400; text-align: center; margin-top: 120px; m
     font-weight: 400;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }
 .slider {
     position: relative;
