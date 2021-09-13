@@ -104,7 +104,7 @@ font-variant: normal; font-weight: 400; text-align: center; margin-top: 120px; m
 
 .wtf {width: 1050px;}
 
-@media (max-width: 1680px) {
+@media (max-width: 1600px) {
 
 .bigtext {
     font-family: "Arial Narrow", Arial, sans-serif;
